@@ -6,3 +6,11 @@ type Color struct {
 	NameEnglish string
 	NameSpanish string
 }
+
+// GetColor is an accessor method for the Color struct
+func GetColor(en, es string) Color {
+	return Color{
+		NameEnglish: en,
+		NameSpanish: es,
+	}
+}
