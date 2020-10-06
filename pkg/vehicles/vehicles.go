@@ -1,12 +1,12 @@
-// package vehicles contains vehicle types.
+// Package vehicles contains vehicle types.
 package vehicles
 
 import (
 	"github.com/komish/vendor-demo-mod-3/pkg/colors"
 )
 
-// vehicle represents a vehicle of some sort.
-type vehicle struct {
+// Vehicle represents a vehicle of some sort.
+type Vehicle struct {
 	Type   string
 	Wheels uint8
 	Seats  uint8
@@ -14,8 +14,8 @@ type vehicle struct {
 }
 
 // GetSedan returns a sedan vehicle that seats 4 in the color provided.
-func GetSedan(color colors.Color) vehicle {
-	return vehicle{
+func GetSedan(color colors.Color) Vehicle {
+	return Vehicle{
 		Type:   "sedan",
 		Wheels: 4,
 		Seats:  4,
@@ -24,8 +24,8 @@ func GetSedan(color colors.Color) vehicle {
 }
 
 // GetMotorcycle returns a motorcycle vehicle that seats 1 in the color provided.
-func GetMotorcycle(color colors.Color) vehicle {
-	return vehicle{
+func GetMotorcycle(color colors.Color) Vehicle {
+	return Vehicle{
 		Type:   "motorcycle",
 		Wheels: 2,
 		Seats:  1,
@@ -34,8 +34,8 @@ func GetMotorcycle(color colors.Color) vehicle {
 }
 
 // GetCoupe returns a coupe vehicle that seats 2 in the color provided.
-func GetCoupe(color colors.Color) vehicle {
-	return vehicle{
+func GetCoupe(color colors.Color) Vehicle {
+	return Vehicle{
 		Type:   "coupe",
 		Wheels: 4,
 		Seats:  2,
