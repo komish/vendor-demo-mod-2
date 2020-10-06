@@ -19,7 +19,7 @@ func GetSedan(color colors.Color) vehicle {
 		Type:   "sedan",
 		Wheels: 4,
 		Seats:  4,
-		Color:  colors.Color,
+		Color:  color,
 	}
 }
 
@@ -29,7 +29,7 @@ func GetMotorcycle(color colors.Color) vehicle {
 		Type:   "motorcycle",
 		Wheels: 2,
 		Seats:  1,
-		Color:  colors.Color,
+		Color:  color,
 	}
 }
 
@@ -39,6 +39,6 @@ func GetCoupe(color colors.Color) vehicle {
 		Type:   "coupe",
 		Wheels: 4,
 		Seats:  2,
-		Color:  colors.Color,
+		Color:  color,
 	}
 }

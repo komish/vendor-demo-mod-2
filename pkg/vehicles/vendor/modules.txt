@@ -1,0 +1,3 @@
+# github.com/komish/vendor-demo-mod-3 v0.0.0-20201006150139-edf88b57289d
+## explicit
+github.com/komish/vendor-demo-mod-3/pkg/colors
